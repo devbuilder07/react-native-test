@@ -6,6 +6,7 @@ import MapList from './components/MapList';
 import FormSubmit from "./components/FormSubmit";
 import Grid from "./components/Grid";
 import FlatListLooping from "./components/FlatListLooping";
+import TestHo from "./components/TestHo";
 
 let title = 'Hello react native';
 let btn = 'PRESS HERE';
@@ -28,6 +29,7 @@ function App(): JSX.Element {
                 <MapList/>
                 <Grid/>
                 <FlatListLooping/>
+                <TestHo/>
             </ScrollView>
         </View>
     );
